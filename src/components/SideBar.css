@@ -1,7 +1,34 @@
 .SideBar {
+  position: relative;
+  font-size: 0.6rem;
   background: #fff;
+  padding: 1.5rem;
 }
 
-.overview {
-  background: url(../images/SideBar/bgRowHover.png);
+.SideBar button {
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background: rgb(15, 184, 71);
 }
+
+.SideBar div {
+  margin-bottom: 0.7rem;
+}
+
+.SideBar img {
+  margin-right: 10px;
+  width: 15px;
+  height: 13px;
+}
+
+.SideBar h3 {
+  margin-top: 1.5rem;
+  font-weight: normal;
+}
+
+.SideBar p {
+  margin-top: 1.5rem;
+}
+

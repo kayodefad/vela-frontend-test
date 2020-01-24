@@ -6,11 +6,15 @@ import TotalTransVal from '../images/BodyFirstLayer/TotalTransVal.png'
 
 const MainFirstRow = () => {
   return (
-    <div>
-      <img src={dailytransactionvol} alt={dailytransactionvol} />
-      <img src={DailyTransactionValue} alt={DailyTransactionValue} />
-      <img src={TotalTransVol} alt={TotalTransVol} />
-      <img src={TotalTransVal} alt={TotalTransVal} />
+    <div className="MainFirstRow">
+      <div className="value">
+        <img src={dailytransactionvol} alt={dailytransactionvol} />
+        <img src={DailyTransactionValue} alt={DailyTransactionValue} />
+      </div>
+      <div className="volume">
+        <img src={TotalTransVol} alt={TotalTransVol} />
+        <img src={TotalTransVal} alt={TotalTransVal} />
+      </div>
     </div>
   )
 }
