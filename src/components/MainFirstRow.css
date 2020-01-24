@@ -1,0 +1,15 @@
+.MainFirstRow {
+  display: flex;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.MainFirstRow img {
+  width: 248px;
+  height: 68px;
+}
+
+.MainFirstRow .value {
+  margin-right: 25px;
+}
+
