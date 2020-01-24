@@ -1,4 +1,4 @@
-.MainSecondLayer {
+/* .MainSecondLayer {
   position: relative;
   background: #fff;
   width: 67%;
@@ -27,11 +27,41 @@
 }
 
 .biggraph {
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
   margin-top: 1.3rem;
   background: url(../images/BodySecondLayer/SecondLayerLeft/biggrapgh.png);
   height: 240px;
   width: 100%;
+} */
+
+.MainSecondRow {
+  display: flex;
+  /* flex: 1 */
+}
+
+.MainSecondRow .leftbar {
+  flex: 2;
+  margin-right: 5px;
+  background: #fff;
+}
+
+.MainSecondRow .rightbar {
+  /* background: #fff; */
+  flex: 1;
+  font-size: 0.7rem;
+}
+
+.MainSecondRow .rightbar .topandbottom {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
+}
+
+.MainSecondRow .rightbar .topandbottom .top,
+.MainSecondRow .rightbar .topandbottom .bottom {
+  padding: 1rem;
+  background: #fff;
+}
+
+.MainSecondRow p {
+  margin: 8px 0;
 }

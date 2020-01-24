@@ -14,11 +14,13 @@ import May from '../images/BodySecondLayer/SecondLayerLeft/May.png'
 import rightArrow from '../images/BodySecondLayer/SecondLayerLeft/rightArrow.png'
 import RightButton from '../images/BodySecondLayer/SecondLayerLeft/RightButton.png'
 import secondLayerRectangle from '../images/BodySecondLayer/SecondLayerLeft/secondLayerRectangle.png'
+import green from '../images/BodySecondLayer/SecondLayerRight/green.png'
+import yellow from '../images/BodySecondLayer/SecondLayerRight/yellow.png'
 
 const MainSecondRow = () => {
   return (
-    <div className="MainSecondLayer">
-      <div className="topofgraph">
+    <div className="MainSecondRow">
+      {/* <div className="topofgraph">
         <img className="today" src={Jan2018} alt="Jan2018" />
         <img src={jan2june} alt="jan2june" />
         <div className="arrows">
@@ -38,6 +40,31 @@ const MainSecondRow = () => {
         <img src={Apr} alt="Apr" />
         <img src={May} alt="May" />
         <img src={Jun} alt="Jun" />
+      </div> */}
+      <div className="leftbar">LeftBar</div>
+      <div className="rightbar">
+        <div className="topandbottom">
+          <div className="top">
+            <h3>Orders</h3>
+            <div>
+              <img src={green} alt="green" />
+              <img src={yellow} alt="yellow" />
+            </div>
+            <p>Pending Orders: 20</p>
+            <p>Reconciled Orders: 80</p>
+            <p>Total Orders: 100</p>
+          </div>
+          <div className="bottom">
+            <h3>Payments</h3>
+            <div>
+              <img src={green} alt="green" />
+              <img src={yellow} alt="yellow" />
+            </div>
+            <p>Un-reconciled: 20</p>
+            <p>Reconciled Orders: 80</p>
+            <p>Total Orders: 100</p>
+          </div>
+        </div>
       </div>
     </div>
   )
