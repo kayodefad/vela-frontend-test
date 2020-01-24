@@ -18,6 +18,12 @@ import green from '../images/BodySecondLayer/SecondLayerRight/green.png'
 import yellow from '../images/BodySecondLayer/SecondLayerRight/yellow.png'
 
 const MainSecondRow = () => {
+  const style = {
+    background: '#fff',
+    padding: '2px 7px',
+    border: '#bdbaba',
+    borderRadius: '5px'
+  }
   return (
     <div className="MainSecondRow">
       {/* <div className="topofgraph">
@@ -41,7 +47,22 @@ const MainSecondRow = () => {
         <img src={May} alt="May" />
         <img src={Jun} alt="Jun" />
       </div> */}
-      <div className="leftbar">LeftBar</div>
+      <div className="leftbar">
+        <div>
+          <h3>Today: 5, Aug 2018</h3>
+          <div class="custom-select">
+            <select>
+              <option value="0">Select car:</option>
+              <option value="1">Audi</option>
+              <option value="2">BMW</option>
+            </select>
+          </div>
+          <div>
+            <i className="fas fa-chevron-left"></i>
+            <i className="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
       <div className="rightbar">
         <div className="topandbottom">
           <div className="top">

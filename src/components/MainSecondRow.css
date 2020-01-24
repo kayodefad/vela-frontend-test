@@ -45,7 +45,6 @@
 }
 
 .MainSecondRow .rightbar {
-  /* background: #fff; */
   flex: 1;
   font-size: 0.7rem;
 }
@@ -64,4 +63,9 @@
 
 .MainSecondRow p {
   margin: 8px 0;
+}
+
+.MainSecondRow .leftbar .arrowbg {
+  background: blue;
+  padding: 3px 5px
 }
