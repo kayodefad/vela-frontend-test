@@ -1,0 +1,28 @@
+.TableBody {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.TableBody th {
+  background: #ebe8e8;
+  padding: 12px 12px 10px 20px;
+  text-align: left;
+}
+
+.TableBody td {
+  background: #fff;
+  padding: 20px 12px 20px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ebe8e8;
+}
+
+.prac {
+  display: flex;
+  align-items: center;
+}
+
+.prac img {
+  margin-right: 25px;
+}
