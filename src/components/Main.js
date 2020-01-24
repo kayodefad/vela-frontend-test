@@ -1,9 +1,14 @@
 import React from 'react'
+import MainFirstRow from './MainFirstRow'
+import MainSecondRow from './MainSecondRow'
 
 const Main = () => {
   return (
-    <div>Main</div>
-  );
+    <div>
+      <MainFirstRow />
+      <MainSecondRow />
+    </div>
+  )
 }
 
-export default Main;
+export default Main

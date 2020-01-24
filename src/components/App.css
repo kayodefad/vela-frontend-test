@@ -1,5 +1,5 @@
 .App {
-  background: rgb(228, 222, 222);
+  background: #fcfafa;
 }
 
 /* .App div {
@@ -14,4 +14,8 @@
 .App .BodyContainer {
   display: grid;
   grid-template-columns: 1fr 5fr;
+}
+
+.main {
+  padding: 1rem 4rem 4rem 2rem;
 }

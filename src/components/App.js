@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="BodyContainer">
-        <div className="sidebar" style={{background: 'red'}}><SideBar /></div>
-        <div className="main" style={{background: 'yellow'}}><Main /></div>
+        <div className="sidebar"><SideBar /></div>
+        <div className="main"><Main /></div>
       </div>
     </div>
   )
