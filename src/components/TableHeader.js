@@ -18,7 +18,7 @@ const Table = () => {
           out of 500 payments
         </small>
         <span style={{marginLeft: '40px', marginRight:'85px'}} className="search">
-          <input type="text" placeholder="&#xF002; Search payments" />
+          <input type="text" placeholder="Search payments" />
         </span>
         <span className="selectcategory">
           <small>Show</small>{' '}

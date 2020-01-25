@@ -2,7 +2,6 @@
   position: relative;
   font-size: 0.6rem;
   background: #fff;
-  padding: 1.5rem;
   color: #868484;
   height: 100%;
 }
@@ -18,14 +17,14 @@
 }
 
 .SideBar button:hover {
-  background: rgb(6, 94, 35);
+  background: #065e23;
 }
 
 .SideBar div,
 .SideBar p {
   display: flex;
   align-items: center;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
 }
 
 .SideBar img {
@@ -43,3 +42,21 @@
   margin-top: 1.5rem;
 }
 
+.SideBar .overview,
+.SideBar h3,
+.SideBar p,
+.SideBar .overview,
+.SideBar .allpayments,
+.SideBar .reconciledpayments,
+.SideBar .unreconciledpay,
+.SideBar .manualsettle,
+.SideBar .allorders,
+.SideBar .pendingorders,
+.SideBar .reconciledorders {
+  padding: 0 1.5rem;
+}
+
+.SideBar button {
+  margin: 0 1.5rem;
+  margin-top: 20px;
+}

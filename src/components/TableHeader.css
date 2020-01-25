@@ -5,25 +5,18 @@
 .Table h2 {
   margin: 25px 0 15px 0;
 }
-/* .Table small {
-  position: absolute;
-  left: -30px;
-} */
 
 .Table .select-date {
   color: rgb(61, 136, 221);
   font-size: 0.8rem;
   border: none;
   background: transparent;
-  /* padding: 6px; */
-  /* width: 130px; */
 }
 
 .Table .show-all {
   margin-left: 12px;
   font-size: 0.8rem;
   border: 1px solid #c2bdbd ;
-  /* background: transparent; */
   padding: 6px;
   width: 130px;
 }

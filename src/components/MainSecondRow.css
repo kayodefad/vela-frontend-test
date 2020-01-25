@@ -1,42 +1,6 @@
-/* .MainSecondLayer {
-  position: relative;
-  background: #fff;
-  width: 67%;
-}
-
-.topofgraph {
-  padding: 1rem 1rem 0 1rem;
-}
-
-.today {
-  margin-right: 16rem;
-}
-
-.arrows {
-  position: absolute;
-  right: 2rem;
-  top: 1.5rem;
-}
-
-.leftArrow {
-  background: url(../images/BodySecondLayer/SecondLayerLeft/LeftButton.png);
-}
-
-.rightArrow {
-  background: url(../images/BodySecondLayer/SecondLayerLeft/RightButton.png);
-}
-
-.biggraph {
-  margin-top: 1.3rem;
-  background: url(../images/BodySecondLayer/SecondLayerLeft/biggrapgh.png);
-  height: 240px;
-  width: 100%;
-} */
-
 .MainSecondRow {
   display: flex;
   height: 263px;
-  /* flex: 1 */
 }
 
 .MainSecondRow .leftbar {
@@ -103,19 +67,9 @@
   flex: 2;
 }
 
-/* .MainSecondRow .biggraph {
-  margin-top: 14px;
-}
-
-.MainSecondRow .biggraph img {
-  width: 100%;
-  height: 177px;
-} */
-
 .MainSecondRow .biggraph {
   position: relative;
   margin-top: 12px;
-  /* width: 509px; */
   height: 179px;
   background: url('../images/BodySecondLayer/SecondLayerLeft/biggrapgh.png') no-repeat center bottom/cover;
 }
@@ -125,6 +79,5 @@
   font-size: 0.8rem;
 }
 
-/* <img src={biggrapgh} alt="biggraph" /> */
 
 

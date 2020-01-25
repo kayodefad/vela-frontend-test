@@ -18,7 +18,7 @@ const MainFirstRow = () => {
         <div className="dailyval">
           <div className="dailytransval">
             <div className="labels">Daily Transaction Value</div>
-            <div className="figures">4,000,000</div>
+            <div className="figures">&#8358;4,000,000</div>
           </div>
           <div>
             <img src={smallgraph} alt="small graph" />
@@ -39,7 +39,7 @@ const MainFirstRow = () => {
         <div className="totalval">
           <div className="totaltransval">
             <div className="labels">Total Transaction Value</div>
-            <div className="figures">4,000,000</div>
+            <div className="figures">&#8358;4,000,000</div>
           </div>
           <div>
             <img src={smallgraph} alt="small graph" />
