@@ -1,0 +1,37 @@
+/* .ItemDetail {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #868484;
+} */
+
+/* .ItemDetail th {
+  background: #f3f1f1;
+  padding: 12px 12px 10px 20px;
+  text-align: left;
+  font-weight: normal;
+} */
+
+.ItemDetail td {
+  background: #fff;
+  padding: 20px 12px 20px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ebe8e8;
+}
+
+.prac {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.prac img {
+  margin-right: 25px;
+}
+
+.recon {
+  border: 1px solid #ebe8e8;
+  border-radius: 15px;
+  padding: 7px 25px 7px 10px;
+}
