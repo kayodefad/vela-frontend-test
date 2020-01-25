@@ -3,17 +3,27 @@
   font-size: 0.6rem;
   background: #fff;
   padding: 1.5rem;
+  color: #868484
 }
 
 .SideBar button {
   font-size: 0.6rem;
   color: #fff;
   padding: 0.5rem 1rem;
-  border-radius: 10px;
+  border-radius: 15px;
   background: rgb(15, 184, 71);
+  cursor: pointer;
+  transition: all 2s ease-out;
 }
 
-.SideBar div {
+.SideBar button:hover {
+  background: rgb(6, 94, 35);
+}
+
+.SideBar div,
+.SideBar p {
+  display: flex;
+  align-items: center;
   margin-bottom: 0.7rem;
 }
 
@@ -24,7 +34,7 @@
 }
 
 .SideBar h3 {
-  margin-top: 1.5rem;
+  margin: 1.5rem 0 0.8rem 0;
   font-weight: normal;
 }
 

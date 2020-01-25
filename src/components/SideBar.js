@@ -15,17 +15,17 @@ const SideBar = () => {
     <div className="SideBar">
       <button>GENERATE INVOICE</button>
       <h3>Main</h3>
-      <div className="overview"><img src={Vector} alt={Vector} />Overview</div>
+      <div className="overview"><img src={Vector} alt={Vector} /><span>Overview</span></div>
       <h3>Payments</h3>
-      <div><img src={allpaymentsicon} alt={allpaymentsicon} />All Payments</div>
-      <div><img src={reconciledpayments} alt={reconciledpayments} />Reconciled Payments</div>
-      <div><img src={unreconciled} alt={unreconciled} />Un-Reconciled Payments</div>
-      <div><img src={manualsettle} alt={manualsettle} />Manual Settlement</div>
+      <div><img src={allpaymentsicon} alt={allpaymentsicon} /><span>All Payments</span></div>
+      <div><img src={reconciledpayments} alt={reconciledpayments} /><span>Reconciled Payments</span></div>
+      <div><img src={unreconciled} alt={unreconciled} /><span>Un-reconciled Payments</span></div>
+      <div><img src={manualsettle} alt={manualsettle} /><span>Manual Settlement</span></div>
       <h3>Orders</h3>
-      <div><img src={allorders} alt={allorders} />All Orders</div>
-      <div><img src={pendingordersicon} alt={pendingordersicon} />Pending Orders</div>
-      <div><img src={reconciledorders} alt={<img src={Vector} alt={Vector} />  } />Reconciled Orders</div>
-      <p><img src={merchanticon} alt={merchanticon} />Merchant Profile</p>
+      <div><img src={allorders} alt={allorders} /><span>All orders</span></div>
+      <div><img src={pendingordersicon} alt={pendingordersicon} /><span>Pending Orders</span></div>
+      <div><img src={reconciledorders} alt={<img src={Vector} alt={Vector} />  } /><span>Reconciled Orders</span></div>
+      <p><img src={merchanticon} alt={merchanticon} /><span>Merchant profile</span></p>
     </div>
   )
 }

@@ -1,0 +1,74 @@
+export const itemsPurchased = [
+  {
+    id: 1,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Reconciled'
+  },
+  {
+    id: 2,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Pending'
+  },
+  {
+    id: 3,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Reconciled'
+  },
+  {
+    id: 4,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Reconciled'
+  },
+  {
+    id: 5,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Pending'
+  },
+  {
+    id: 6,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Un-reconciled'
+  },
+  {
+    id: 7,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Reconciled'
+  },
+  {
+    id: 8,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Un-reconciled'
+  },
+  {
+    id: 9,
+    itemtype: 'Apple Mac Book 15&acute;&acute; 250 SSD 12GB',
+    price: '$73430',
+    transNo: 1234567890,
+    time: '12:30',
+    status: 'Pending'
+  },
+]
