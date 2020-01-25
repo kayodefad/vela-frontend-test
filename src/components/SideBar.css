@@ -3,7 +3,8 @@
   font-size: 0.6rem;
   background: #fff;
   padding: 1.5rem;
-  color: #868484
+  color: #868484;
+  height: 100%;
 }
 
 .SideBar button {
