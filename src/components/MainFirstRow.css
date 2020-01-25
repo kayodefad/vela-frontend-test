@@ -1,15 +1,41 @@
 .MainFirstRow {
   display: flex;
-  flex: 1;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.MainFirstRow img {
-  width: 248px;
-  height: 68px;
+.MainFirstRow .left,
+.MainFirstRow .right {
+  display: flex;
 }
 
-.MainFirstRow .value {
-  margin-right: 25px;
+.MainFirstRow .left {
+  margin-right: 30px;
 }
+
+.MainFirstRow .dailyvol,
+.MainFirstRow .dailyval,
+.MainFirstRow .totalvol,
+.MainFirstRow .totalval {
+  display: flex;
+  padding: 15px;
+  background: #fff;
+}
+
+.MainFirstRow .dailyvol {
+  margin-right: 10px;
+}
+
+.MainFirstRow .totalvol {
+  margin-right: 10px;
+}
+
+.MainFirstRow .dailytransvol,
+.MainFirstRow .dailytransval,
+.MainFirstRow .totaltransvol,
+.MainFirstRow .totaltransval {
+  margin-right: 15px;
+}
+
 

@@ -1,3 +1,53 @@
-.Header img {
-  width: 100%;
+.Header {
+  background: #fff;
+  padding: 0.5rem 4rem 0.5rem 2rem;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
 }
+
+.Header .logo {
+  flex: 2;
+}
+
+.Header .search {
+  flex: 5;
+}
+
+.Header .search input {
+  border: none;
+}
+
+.Header .search input:focus {
+  outline: none;
+}
+
+.Header .support {
+  flex: 1;
+}
+
+.Header .faq {
+  flex: 1;
+}
+
+.Header .image {
+  flex: 1;
+}
+
+.Header .details {
+  flex: 1.5;
+  justify-self: flex-end;
+}
+
+.Header .details .info {
+  display: flex;
+}
+
+.Header .details .info .avi {
+  margin-left: 20px;
+}
+
+.Header .details .info .avi img {
+  border-radius: 50%;
+}
+

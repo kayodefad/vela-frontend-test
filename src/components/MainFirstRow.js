@@ -1,20 +1,50 @@
 import React from 'react'
-import dailytransactionvol from '../images/BodyFirstLayer/dailytransactionvol.png'
-import DailyTransactionValue from '../images/BodyFirstLayer/DailyTransactionValue.png'
-import TotalTransVol from '../images/BodyFirstLayer/TotalTransVol.png'
-import TotalTransVal from '../images/BodyFirstLayer/TotalTransVal.png'
+import smallgraph from '../images/BodyFirstLayer/smallgraph.png'
 import './MainFirstRow.css'
 
 const MainFirstRow = () => {
   return (
     <div className="MainFirstRow">
-      <div className="value">
-        <img style={{marginRight:'5px'}} src={dailytransactionvol} alt={dailytransactionvol} />
-        <img src={DailyTransactionValue} alt={DailyTransactionValue} />
+      <div className="left">
+        <div className="dailyvol">
+          <div className="dailytransvol">
+            <div>Daily Transaction Volume</div>
+            <div>2,342</div>
+          </div>
+          <div>
+            <img src={smallgraph} alt="small graph" />
+          </div>
+        </div>
+        <div className="dailyval">
+          <div className="dailytransval">
+            <div>Daily Transaction Value</div>
+            <div>4,000,000</div>
+          </div>
+          <div>
+            <img src={smallgraph} alt="small graph" />
+          </div>
+        </div>
       </div>
-      <div className="volume">
-        <img style={{marginRight:'5px'}} src={TotalTransVol} alt={TotalTransVol} />
-        <img src={TotalTransVal} alt={TotalTransVal} />
+
+      <div className="right">
+        <div className="totalvol">
+          <div className="totaltransvol">
+            <div>Total Transaction Volume</div>
+            <div>452,000</div>
+          </div>
+          <div>
+            <img src={smallgraph} alt="small graph" />
+          </div>
+        </div>
+        <div className="totalval">
+          <div className="totaltransval">
+            <div>Total Transaction Value</div>
+            <div>4,000,000</div>
+          </div>
+          <div>
+            <img src={smallgraph} alt="small graph" />
+          </div>
+        </div>
       </div>
     </div>
   )
