@@ -19,7 +19,7 @@
 .MainFirstRow .totalvol,
 .MainFirstRow .totalval {
   display: flex;
-  padding: 15px;
+  padding: 15px 25px;
   background: #fff;
 }
 
@@ -36,6 +36,16 @@
 .MainFirstRow .totaltransvol,
 .MainFirstRow .totaltransval {
   margin-right: 15px;
+}
+
+.MainFirstRow .labels {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+  color: #868484;
+}
+
+.MainFirstRow .figures {
+  font-weight: bold;
 }
 
 

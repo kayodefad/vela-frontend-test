@@ -8,6 +8,9 @@
 
 .Header .logo {
   flex: 2;
+  font-size: x-large;
+  font-weight: bold;
+  color: #0059ff;
 }
 
 .Header .search {
@@ -50,4 +53,5 @@
 .Header .details .info .avi img {
   border-radius: 50%;
 }
+
 

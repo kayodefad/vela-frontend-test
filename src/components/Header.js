@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="details">
         <div className="info"><div>
-          <small>Hello</small>
+          <small style={{textAlign:'right'}}>Hello</small>
           <div>Oluwaleke Ojo</div>
         </div>
         <div className="avi">

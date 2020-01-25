@@ -40,22 +40,40 @@ const MainSecondRow = () => {
           <div className="top">
             <h3>Orders</h3>
             <div>
-              <img src={green} alt="green" />
+              <img src={green} alt="green" style={{ width: '70%' }} />
               <img src={yellow} alt="yellow" />
             </div>
-            <p>Pending Orders: 20</p>
-            <p>Reconciled Orders: 80</p>
-            <p>Total Orders: 100</p>
+            <p>
+              Pending Orders:{' '}
+              <span style={{ color: 'yellow', fontWeight: 'bold' }}>20</span>
+            </p>
+            <p>
+              Reconciled Orders:{' '}
+              <span style={{ color: 'green', fontWeight: 'bold' }}>80</span>
+            </p>
+            <p>
+              Total Orders:{' '}
+              <span style={{ color: 'blue', fontWeight: 'bold' }}>100</span>
+            </p>
           </div>
           <div className="bottom">
             <h3>Payments</h3>
             <div>
-              <img src={green} alt="green" />
+              <img src={green} alt="green" style={{ width: '70%' }} />
               <img src={yellow} alt="yellow" />
             </div>
-            <p>Un-reconciled: 20</p>
-            <p>Reconciled Orders: 80</p>
-            <p>Total Orders: 100</p>
+            <p>
+              Un-reconciled:{' '}
+              <span style={{ color: 'yellow', fontWeight: 'bold' }}>20</span>
+            </p>
+            <p>
+              Reconciled Orders:{' '}
+              <span style={{ color: 'green', fontWeight: 'bold' }}>80</span>
+            </p>
+            <p>
+              Total Orders:{' '}
+              <span style={{ color: 'blue', fontWeight: 'bold' }}>100</span>
+            </p>
           </div>
         </div>
       </div>
