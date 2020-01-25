@@ -55,7 +55,6 @@
   padding: 22px;
   display: flex;
   align-items: center;
-  /* padding: 8px; */
 }
 
 .MainSecondRow h3 {
@@ -71,7 +70,7 @@
   position: relative;
   margin-top: 12px;
   height: 179px;
-  background: url('../images/BodySecondLayer/SecondLayerLeft/biggrapgh.png') no-repeat center bottom/cover;
+  background: url('../../images/BodySecondLayer/SecondLayerLeft/biggrapgh.png') no-repeat center bottom/cover;
 }
 
 .MainSecondRow .biggraph span {

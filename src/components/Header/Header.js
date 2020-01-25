@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
-import notifyicon from '../images/Header/notifyicon.png'
-import avi from '../images/Header/avi.png'
+import notifyicon from '../../images/Header/notifyicon.png'
+import avi from '../../images/Header/avi.png'
 
 const Header = () => {
   return (

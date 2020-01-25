@@ -1,5 +1,5 @@
 import React from 'react'
-import smallgraph from '../images/BodyFirstLayer/smallgraph.png'
+import smallgraph from '../../images/BodyFirstLayer/smallgraph.png'
 import './MainFirstRow.css'
 
 const MainFirstRow = () => {

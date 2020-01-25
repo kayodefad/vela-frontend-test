@@ -1,7 +1,7 @@
 import React from 'react'
 import './MainSecondRow.css'
-import green from '../images/BodySecondLayer/SecondLayerRight/green.png'
-import yellow from '../images/BodySecondLayer/SecondLayerRight/yellow.png'
+import green from '../../images/BodySecondLayer/SecondLayerRight/green.png'
+import yellow from '../../images/BodySecondLayer/SecondLayerRight/yellow.png'
 
 const MainSecondRow = () => {
   return (

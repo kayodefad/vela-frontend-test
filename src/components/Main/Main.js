@@ -1,8 +1,8 @@
 import React from 'react'
-import MainFirstRow from './MainFirstRow'
-import MainSecondRow from './MainSecondRow'
-import Table from './Table'
-import Footer from './Footer'
+import MainFirstRow from '../MainFirstRow/MainFirstRow'
+import MainSecondRow from '../MainSecondRow/MainSecondRow'
+import Table from '../Table'
+import Footer from '../Footer/Footer'
 
 const Main = () => {
   return (

@@ -1,14 +1,14 @@
 import React from 'react'
 import './SideBar.css'
-import manualsettle from '../images/SideBar/manualsettle.png'
-import merchanticon from '../images/SideBar/merchanticon.png'
-import pendingordersicon from '../images/SideBar/pendingordersicon.png'
-import reconciledorders from '../images/SideBar/reconciledorders.png'
-import reconciledpayments from '../images/SideBar/reconciledpayments.png'
-import unreconciled from '../images/SideBar/unreconciled.png'
-import Vector from '../images/SideBar/Vector.png'
-import allorders from '../images/SideBar/allorders.png'
-import allpaymentsicon from '../images/SideBar/allpaymentsicon.png'
+import manualsettle from '../../images/SideBar/manualsettle.png'
+import merchanticon from '../../images/SideBar/merchanticon.png'
+import pendingordersicon from '../../images/SideBar/pendingordersicon.png'
+import reconciledorders from '../../images/SideBar/reconciledorders.png'
+import reconciledpayments from '../../images/SideBar/reconciledpayments.png'
+import unreconciled from '../../images/SideBar/unreconciled.png'
+import Vector from '../../images/SideBar/Vector.png'
+import allorders from '../../images/SideBar/allorders.png'
+import allpaymentsicon from '../../images/SideBar/allpaymentsicon.png'
 
 const SideBar = () => {
   return (

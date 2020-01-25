@@ -1,10 +1,10 @@
 import React from 'react'
 import './TableBody.css'
-import { itemsPurchased } from '../itemsPurchased'
-import vwsymbol from '../images/BodyTable/vwsymbol.png'
-import pendcirc from '../images/BodyTable/pendcirc.png'
-import reconicon from '../images/BodyTable/reconicon.png'
-import unreconcirc from '../images/BodyTable/unreconcirc.png'
+import { itemsPurchased } from '../../itemsPurchased'
+import vwsymbol from '../../images/BodyTable/vwsymbol.png'
+import pendcirc from '../../images/BodyTable/pendcirc.png'
+import reconicon from '../../images/BodyTable/reconicon.png'
+import unreconcirc from '../../images/BodyTable/unreconcirc.png'
 
 class TableBody extends React.Component {
   renderItems = () => {
